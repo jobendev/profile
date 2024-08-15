@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
+
+
 function Header() {
   const [] = useState("");
   return (
     <>
       <header>
-        <div>
-          <h1>Welcome!</h1>
+        <div className="logo">
+          <img src="../src/assets/android-chrome-192x192.png" alt="Logo" />
         </div>
         <div className="socials">
           <button>

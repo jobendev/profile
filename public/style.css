@@ -98,3 +98,18 @@ header button {
   font-weight: 700;
 }
 
+.logo {
+  margin-left: 10px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #525353aa);
+}
+
+
