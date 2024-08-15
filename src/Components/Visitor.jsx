@@ -5,9 +5,9 @@ function Visitor(props) {
   return (
     <div className="welcome">
       <h1>
-      Before Knowing Joben, He'd like to know you first.
+      Thanks for visiting! I'm Joben,
       </h1>
-      <p></p>
+      <p>what's your name?</p>
       <div className="inputsubmit">
         <input
           className="input"
@@ -15,7 +15,7 @@ function Visitor(props) {
           placeholder="Please write your name"
         />
         <Button size="small">
-          Next
+          next
         </Button>
       </div>
     </div>
