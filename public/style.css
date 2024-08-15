@@ -7,16 +7,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  margin-top: 100px;
+  padding: 10px;
+  margin-top: 225px;
   margin-bottom: 0px;
+  background-color: #2c2c2c;
+  border-radius: 20px;
 }
 
 
 .imagecontainer{
-  background-color: #424242;
   border-radius: 20px;
-  padding: 25px;
+  padding-bottom: 30px;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 footer {
@@ -50,7 +51,7 @@ header {
   top: 0;
   z-index: 1000;
   background-color: #2c2c2c;
-  margin-top: 0;
+  margin-top: 1px;
   margin-left: 0;
 }
 
@@ -66,6 +67,7 @@ header h1{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-right: 10px;
 }
 header button {
   background-color: transparent;
@@ -115,10 +117,11 @@ header button {
 }
 .inputsubmit button{
   margin-top: 20px;
-  color: rgb(75, 75, 75);
+  color: rgb(122, 121, 121);
   font-size: larger;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
+  background-color: rgb(37, 37, 37);
 }
 
 .logo {

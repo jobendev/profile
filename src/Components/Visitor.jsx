@@ -9,14 +9,8 @@ function Visitor(props) {
           Thanks for visiting! I'm Joben a Scrum Master and a Full-stack Web
           Developer,
         </h1>
-        <p>what's your name?</p>
         <div className="inputsubmit">
-          <input
-            className="input"
-            type="text"
-            placeholder="Please write your name"
-          />
-          <Button size="small">next</Button>
+          <Button size="small">about joben</Button>
         </div>
       </div>
 
