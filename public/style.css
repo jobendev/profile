@@ -47,11 +47,13 @@ header h1{
   align-items: center;
 }
 header button {
+  background-color: transparent;
+  border: 0;
   margin: 5px;
-  padding: 5px;
-  cursor: pointer;
-  border-radius: 10px;
-  background-color: rgb(172, 171, 171);
+}
+.svg_icon{
+  transform: scale(1.8);
+  
 }
 
 .welcome {

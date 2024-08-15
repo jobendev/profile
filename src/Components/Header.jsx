@@ -14,13 +14,13 @@ function Header() {
         </div>
         <div className="socials">
           <button>
-            <a href="https://www.linkedin.com/in/joben-villodrez/">
-              <LinkedInIcon />
+            <a href="https://www.linkedin.com/in/joben-villodrez/" target="_blank">
+              <LinkedInIcon style={{fill: "black"}} className="svg_icon"/>
             </a>
           </button>
           <button>
-            <a href="https://github.com/jobendev">
-              <GitHubIcon />
+            <a href="https://github.com/jobendev" target="_blank">
+              <GitHubIcon style={{fill: "black"}} className="svg_icon"/>
             </a>
           </button>
         </div>
