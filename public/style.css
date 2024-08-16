@@ -221,3 +221,51 @@ header button {
 .headerbuttons button:hover {
   filter: drop-shadow(0 0 2em #2d2d2daa);
 }
+
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #c5c3c3; */
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family:"Roboto", sans-serif;
+  font-size: larger;
+  margin-top: 0;
+  font-weight: 400;
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.hero img{
+  margin-bottom: 50px;
+}
+.hero p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.techstackmain{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li{
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+}
+.break{
+  margin: 20px;
+}
+
+.techstackmain .cards {
+  height: 500px;
+  width: 200px;
+}
+
+hr{
+  border: 1px solid black;
+  border-radius: 20px;
+}

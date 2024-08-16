@@ -4,6 +4,7 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Visitor from "./Components/Visitor";
 import Projects from "./Components/Projects";
+import Techstack from "./Components/Techstack";
 
 function App() {
   const [showIcons, setShowIcons] = useState(false);
@@ -13,10 +14,13 @@ function App() {
   return (
     <>
       <Header aboutClicked={showIcons} />
-      <Visitor isClicked={aboutIsCliked} />
+      {!showIcons ? <Visitor isClicked={aboutIsCliked} /> : null}
+
       {showIcons === true ? (
         <div>
           <Hero />
+          <hr className="break"/>
+          <Techstack />
           <Projects />
         </div>
       ) : null}
