@@ -6,6 +6,18 @@ body {
   );
   height: auto;
 }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
 
 .visit-container {
   display: flex;
@@ -17,7 +29,6 @@ body {
   background-color: #ececec;
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 .imagecontainer {
@@ -118,14 +129,13 @@ header button {
   font-size: 3.5em;
 }
 
-.welcome .normal{
-  
+.welcome .normal {
   font-family: "Roboto", sans-serif;
   margin: 0;
   font-size: 2em;
   font-weight: 500;
 }
-.welcome .highlight{
+.welcome .highlight {
   background: linear-gradient(
       to bottom,
       rgba(5, 5, 5, 0.15) 0%,
@@ -164,12 +174,19 @@ header button {
   align-items: center;
 }
 .inputsubmit button {
-  margin-top: 20px;
-  color: rgb(43, 43, 43);
-  font-size: larger;
+  cursor: pointer;
+  background-color: #ececec;
   font-family: "Roboto", sans-serif;
+  border-radius: 20px;
+  width: 150px;
   font-weight: 700;
-  background-color: rgb(219, 219, 219);
+  border: 0;
+  height: 50px;
+  margin-top: 10px;
+  font-size: larger;
+}
+.inputsubmit button:hover {
+  filter: drop-shadow(0 0 2em #525353aa);
 }
 
 .logo {
@@ -198,6 +215,7 @@ header button {
   border-radius: 20px;
   width: 150px;
   font-weight: 700;
+  font-size: larger;
 }
 
 .headerbuttons button:hover {

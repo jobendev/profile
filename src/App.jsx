@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Hero from "./Components/Hero";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
@@ -6,13 +6,21 @@ import Visitor from "./Components/Visitor";
 import Projects from "./Components/Projects";
 
 function App() {
-  const [] = useState("");
+  const [showIcons, setShowIcons] = useState(false);
+  function aboutIsCliked() {
+    setShowIcons(true);
+  }
   return (
     <>
-      <Header />
-      <Visitor />
-      <Hero />
-      <Projects />
+      <Header aboutClicked={showIcons} />
+      <Visitor isClicked={aboutIsCliked} />
+      {showIcons === true ? (
+        <div>
+          <Hero />
+          <Projects />
+        </div>
+      ) : null}
+
       <Footer />
     </>
   );

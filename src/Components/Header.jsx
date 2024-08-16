@@ -1,16 +1,16 @@
-import React, { useState } from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import Headericons from "./Headericons";
 
-function Header() {
+function Header(props) {
   return (
     <>
       <header>
         <div className="logo">
           <img src="../src/assets/android-chrome-192x192.png" alt="Logo" />
         </div>
-        <Headericons />
+        {props.aboutClicked ? <Headericons /> : null}
+
         <div className="socials">
           <button>
             <a
