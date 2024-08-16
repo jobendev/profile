@@ -5,10 +5,9 @@ function Visitor(props) {
   return (
     <div className="visit-container">
       <div className="welcome">
-        <h1>
-          Thanks for visiting! I'm Joben a Scrum Master and a Full-stack Web
-          Developer,
-        </h1>
+        <span className="normal">Thanks for visiting! I'm Joben a</span>{" "}
+        <span className="highlight">Scrum Master and</span>
+        <span className="highlight">Full-stack Web Developer.</span>
         <div className="inputsubmit">
           <Button size="small">about joben</Button>
         </div>
