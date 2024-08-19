@@ -21,7 +21,7 @@ function Experience() {
       </div>
       <div className="subexp">
         <h3>Account Executive || Coach</h3>
-              <p>KeepTruckin| March 2019 - September 2020</p>
+              <p>KeepTruckin | March 2019 - September 2020</p>
               <hr className = "break"/>
       </div>
       <div className="subexp">
