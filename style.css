@@ -1,0 +1,422 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  height: auto;
+  margin: 0px;
+}
+html {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.visit-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  /* border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.imagecontainer {
+  /* border-radius: 20px; */
+  padding-bottom: 30px;
+  /* box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+footer {
+  color: #fdfdfd;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 180px;
+}
+.footer {
+  margin-top: 30px;
+  background-color: #1f1f1f;
+}
+.footer p {
+  display: flex;
+}
+
+header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #ccc;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: double;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  background-color: #ffffff;
+}
+
+header h1 {
+  margin: 5px;
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #989898;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3em;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+header button {
+  background-color: transparent;
+  border: 0;
+  margin: 5px;
+}
+.svg_icon {
+  transform: scale(1.8);
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  justify-content: center;
+  text-align: center;
+}
+
+.welcome h1 {
+  background: linear-gradient(
+      to bottom,
+      rgba(70, 70, 70, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(28, 28, 28, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #7e7e7e;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  font-size: 3.5em;
+}
+
+.welcome .normal {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  font-size: 2em;
+  font-weight: 500;
+}
+.welcome .highlight {
+  background: linear-gradient(
+      to bottom,
+      rgba(5, 5, 5, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #373737;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  font-size: 3.5em;
+  font-weight: bold;
+}
+.welcome p {
+  color: rgb(192, 188, 188);
+  font-family: "Roboto", sans-serif;
+}
+
+.welcome .input {
+  border-radius: 18px;
+  /* background: rgb(251, 251, 251); */
+  padding: 20px;
+  width: 140px;
+  height: 5px;
+}
+
+.inputsubmit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inputsubmit button {
+  cursor: pointer;
+  /* background-color: #ececec; */
+  font-family: "Roboto", sans-serif;
+  border-radius: 20px;
+  width: 150px;
+  font-weight: 700;
+  border: 0;
+  height: 50px;
+  margin-top: 10px;
+  font-size: larger;
+}
+.inputsubmit button:hover {
+  filter: drop-shadow(0 0 2em #525353aa);
+}
+
+.logo {
+  margin-left: 10px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #525353aa);
+}
+.headerbuttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.headerbuttons button {
+  cursor: pointer;
+  background-color: #ffffff;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  border-radius: 20px;
+  width: 150px;
+  font-weight: 700;
+  font-size: larger;
+}
+.headerbuttons a {
+  display: flex;
+}
+
+.headerbuttons button:hover {
+  filter: drop-shadow(0 0 2em #2d2d2daa);
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #c5c3c3; */
+  /* border-radius: 20px; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: "Roboto", sans-serif;
+  font-size: larger;
+  margin-top: 0;
+  font-weight: 400;
+  padding: 10px;
+  /* margin-left: 50px;
+  margin-right: 50px; */
+  background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+}
+.hero img {
+  margin-bottom: 50px;
+}
+.hero p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.techstackmain {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 5px;
+}
+
+li img {
+  margin-right: 50px;
+  margin-left: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+}
+.break {
+  margin: 20px;
+}
+
+.techstackmain .cards {
+  height: 450px;
+  width: 300px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+hr {
+  border: 1px solid rgb(236, 184, 184);
+  border-radius: 20px;
+}
+
+.topintro {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%); */
+  background: linear-gradient(
+    315deg,
+    rgb(19, 18, 19) 3%,
+    rgb(34, 40, 46) 38%,
+    rgb(0, 0, 0) 68%,
+    rgb(241, 208, 208) 98%
+  );
+  animation: gradient 7s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.topintro img {
+  margin-top: 40px;
+  border-radius: 50%;
+  border: 5px solid #1f1f1f;
+  width: 200px;
+  height: 200px;
+}
+
+.topintro h1 {
+  color: #cccccc;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: xx-large;
+  font-size: 4rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.topintro h2 {
+  color: #cccccc;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 0px;
+}
+
+.stack-logo {
+  height: 34px;
+  width: 34px;
+}
+
+.cardh2 {
+  font-family: "Roboto", sans-serif;
+}
+
+.tech h2 {
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 2.8rem;
+  margin: 50px;
+  color: #7e7e7e;
+}
+
+.cardh2 hr {
+  width: 50px;
+}
+
+#projects {
+  background: linear-gradient(-45deg, #272726, #3d383a, #172225, #808583);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#projects p {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  color: #989898;
+}
+
+.experience {
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20%;
+}
+.experience hr{
+  margin-left: 30%;
+}
+
+.experience h2{
+  font-size: 2.8rem;
+  color: #989898;
+}
+
