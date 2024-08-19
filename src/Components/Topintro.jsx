@@ -2,7 +2,7 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 function Topintro() {
   return (
-    <div className="topintro">
+    <div className="topintro fade-in">
       <img src="../src/assets/workout.png" alt="" />
       <h1>I'm Joben Villodrez</h1>
       <h2>
