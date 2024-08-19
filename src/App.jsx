@@ -5,6 +5,7 @@ import Footer from "./Components/Footer";
 import Visitor from "./Components/Visitor";
 import Projects from "./Components/Projects";
 import Techstack from "./Components/Techstack";
+import Topintro from "./Components/Topintro";
 
 function App() {
   const [showIcons, setShowIcons] = useState(false);
@@ -18,6 +19,7 @@ function App() {
 
       {showIcons === true ? (
         <div>
+          <Topintro/>
           <Hero />
           <hr className="break"/>
           <Techstack />
