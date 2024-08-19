@@ -6,6 +6,7 @@ import Visitor from "./Components/Visitor";
 import Projects from "./Components/Projects";
 import Techstack from "./Components/Techstack";
 import Topintro from "./Components/Topintro";
+import Experience from "./Components/Experience";
 
 function App() {
   const [showIcons, setShowIcons] = useState(false);
@@ -23,6 +24,7 @@ function App() {
           <Hero />
           <hr className="break"/>
           <Techstack />
+          <Experience/>
           <Projects />
         </div>
       ) : null}

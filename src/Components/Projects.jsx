@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-
-function Projects(params) {
-    return <div id="projects">
-       
-   </div> 
+function Projects() {
+  return (
+    <div id="projects">
+      <p>In Progress</p>
+    </div>
+  );
 }
 
 export default Projects;

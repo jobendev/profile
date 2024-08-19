@@ -54,7 +54,7 @@ footer {
   height: 180px;
 }
 .footer {
-  margin-top: 100px;
+  margin-top: 30px;
   background-color: #1f1f1f;
 }
 .footer p {
@@ -384,3 +384,39 @@ hr {
 .cardh2 hr {
   width: 50px;
 }
+
+#projects {
+  background: linear-gradient(-45deg, #272726, #3d383a, #172225, #808583);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#projects p {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  color: #989898;
+}
+
+.experience {
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20%;
+}
+.experience hr{
+  margin-left: 30%;
+}
+
+.experience h2{
+  font-size: 2.8rem;
+  color: #989898;
+}
+
