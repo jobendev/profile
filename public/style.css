@@ -250,18 +250,43 @@ li{
   list-style-type: none; 
   padding: 0; 
   margin: 0; 
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 5px;
+}
+
+li img{
+  margin-right: 50px;
+  margin-left: 10px;
+}
+
+ul{
+  margin: 0;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-self: start;
 }
 .break{
   margin: 20px;
 }
 
 .techstackmain .cards {
-  height: 500px;
-  width: 200px;
+  height: 450px;
+  width: 300px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
+
 hr{
-  border: 1px solid black;
+  border: 1px solid rgb(236, 184, 184);
   border-radius: 20px;
 }
 
@@ -290,7 +315,7 @@ hr{
 }
 
 .topintro img{
-    margin-top: 20px;
+    margin-top: 40px;
     border-radius: 50%;
     border: 5px solid #1f1f1f;
     width: 200px;
@@ -304,6 +329,7 @@ hr{
   font-size: xx-large;
   font-size: 4rem;
   margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .topintro h2{
@@ -312,4 +338,28 @@ hr{
   font-weight: 400;
   font-style: italic;
   margin-top: 0px;
+}
+
+.stack-logo{
+  height: 34px;
+  width: 34px;
+}
+
+.cardh2 {
+  font-family: "Roboto", sans-serif;
+}
+
+.tech h2{
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 2.8rem;
+  margin: 50px;
+  color: #7e7e7e;
+  
+}
+
+.cardh2 hr {
+  width: 50px;
 }
