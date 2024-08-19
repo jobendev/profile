@@ -1,9 +1,15 @@
 function Headericons() {
   return (
     <div className="headerbuttons fade-in">
-      <button type="button">About</button>
-      <button type="button">Projects</button>
-      <button type="button">Contact</button>
+      <a className="headbuttons" href="#hero">
+        <button type="button">About</button>
+      </a>
+      <a className="headbuttons" href="#projects">
+        <button type="button">Projects</button>
+      </a>
+      <a className="headbuttons" href="#footer">
+        <button type="button">Contact</button>
+      </a>
     </div>
   );
 }

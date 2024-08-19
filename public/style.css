@@ -1,7 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
-  background:linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   height: auto;
   margin: 0px;
+}
+html {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 @keyframes fadeIn {
   from {
@@ -33,17 +39,26 @@ body {
   /* box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 footer {
-  color: #020202;
+  color: #fdfdfd;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
-  position: fixed;
   text-align: center;
-  bottom: 0;
   width: 100%;
-  height: 2.5rem;
-  margin: 0%;
-  bottom: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 180px;
+}
+.footer {
+  margin-top: 100px;
+  background-color: #1f1f1f;
+}
+.footer p {
+  display: flex;
 }
 
 header {
@@ -211,19 +226,22 @@ header button {
   font-weight: 700;
   font-size: larger;
 }
+.headerbuttons a {
+  display: flex;
+}
 
 .headerbuttons button:hover {
   filter: drop-shadow(0 0 2em #2d2d2daa);
 }
 
-.hero{
+.hero {
   display: flex;
   justify-content: center;
   align-items: center;
   /* background-color: #c5c3c3; */
   /* border-radius: 20px; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  font-family:"Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: larger;
   margin-top: 0;
   font-weight: 400;
@@ -232,7 +250,7 @@ header button {
   margin-right: 50px; */
   background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
 }
-.hero img{
+.hero img {
   margin-bottom: 50px;
 }
 .hero p {
@@ -240,16 +258,16 @@ header button {
   padding-right: 50px;
 }
 
-.techstackmain{
+.techstackmain {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-li{
-  list-style-type: none; 
-  padding: 0; 
-  margin: 0; 
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
   font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: left;
@@ -257,19 +275,19 @@ li{
   margin: 5px;
 }
 
-li img{
+li img {
   margin-right: 50px;
   margin-left: 10px;
 }
 
-ul{
+ul {
   margin: 0;
   padding: 5px;
   display: flex;
   flex-direction: column;
   align-self: start;
 }
-.break{
+.break {
   margin: 20px;
 }
 
@@ -281,11 +299,9 @@ ul{
   flex-direction: column;
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
-
-hr{
+hr {
   border: 1px solid rgb(236, 184, 184);
   border-radius: 20px;
 }
@@ -297,32 +313,38 @@ hr{
   justify-content: center;
   align-items: center;
   /* background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%); */
-  background: linear-gradient(315deg, rgb(19, 18, 19) 3%, rgb(34, 40, 46) 38%, rgb(0, 0, 0) 68%, rgb(241, 208, 208) 98%);
-    animation: gradient 7s ease infinite;
-    background-size: 400% 400%;
-    background-attachment: fixed;
+  background: linear-gradient(
+    315deg,
+    rgb(19, 18, 19) 3%,
+    rgb(34, 40, 46) 38%,
+    rgb(0, 0, 0) 68%,
+    rgb(241, 208, 208) 98%
+  );
+  animation: gradient 7s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
 }
 @keyframes gradient {
-    0% {
-        background-position: 0% 0%;
-    }
-    50% {
-        background-position: 100% 100%;
-    }
-    100% {
-        background-position: 0% 0%;
-    }
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
 }
 
-.topintro img{
-    margin-top: 40px;
-    border-radius: 50%;
-    border: 5px solid #1f1f1f;
-    width: 200px;
-    height: 200px;
+.topintro img {
+  margin-top: 40px;
+  border-radius: 50%;
+  border: 5px solid #1f1f1f;
+  width: 200px;
+  height: 200px;
 }
 
-.topintro h1{
+.topintro h1 {
   color: #cccccc;
   font-family: "Roboto", sans-serif;
   font-weight: 900;
@@ -332,7 +354,7 @@ hr{
   margin-top: 0px;
 }
 
-.topintro h2{
+.topintro h2 {
   color: #cccccc;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -340,7 +362,7 @@ hr{
   margin-top: 0px;
 }
 
-.stack-logo{
+.stack-logo {
   height: 34px;
   width: 34px;
 }
@@ -349,7 +371,7 @@ hr{
   font-family: "Roboto", sans-serif;
 }
 
-.tech h2{
+.tech h2 {
   font-family: "Roboto", sans-serif;
   justify-content: center;
   align-items: center;
@@ -357,7 +379,6 @@ hr{
   font-size: 2.8rem;
   margin: 50px;
   color: #7e7e7e;
-  
 }
 
 .cardh2 hr {

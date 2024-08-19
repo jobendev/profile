@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <div className="hero fade-in">
+    <div className="hero fade-in" id="hero">
       <p>
         As a dedicated family man, I cherish every moment spent with my
         beautiful family. My passion for learning led me to explore the world of
