@@ -16,7 +16,7 @@ function Visitor(props) {
       </div>
 
       <div className="imagecontainer">
-        <img src="src/assets/joben.png" alt="" />
+        <img src="./assets/joben.png" alt="" />
       </div>
     </div>
   );

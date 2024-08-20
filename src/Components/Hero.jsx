@@ -11,7 +11,7 @@ function Hero() {
         knowledge, I embrace every opportunity to grow, both personally and
         professionally.
       </p>
-      <img src="src/assets/family-dinner.png" alt="family-dinner" />
+      <img src="./assets/family-dinner.png" alt="family-dinner" />
     </div>
   );
 }

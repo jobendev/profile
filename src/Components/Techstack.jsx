@@ -15,7 +15,7 @@ function Techstack() {
               {" "}
               <img
                 className="stack-logo"
-                src="src/assets/react.svg"
+                src="./assets/react.svg"
                 alt="react-logo"
               />
               React JS
@@ -24,7 +24,7 @@ function Techstack() {
               {" "}
               <img
                 className="stack-logo"
-                src="src/assets/vite.svg"
+                src="./assets/vite.svg"
                 alt="vite-logo"
               />
               Vite
@@ -32,7 +32,7 @@ function Techstack() {
             <li>
               <img
                 className="stack-logo"
-                src="src/assets/bootstrap-fill-svgrepo-com.svg"
+                src="./assets/bootstrap-fill-svgrepo-com.svg"
                 alt="bootstrap-logo"
               />
               Bootstrap
@@ -40,7 +40,7 @@ function Techstack() {
             <li>
               <img
                 className="stack-logo"
-                src="src/assets/html-5-svgrepo-com.svg"
+                src="./assets/html-5-svgrepo-com.svg"
                 alt="html-logo"
               />
               HTML
@@ -48,7 +48,7 @@ function Techstack() {
             <li>
               <img
                 className="stack-logo"
-                src="src/assets/css-3-svgrepo-com.svg"
+                src="./assets/css-3-svgrepo-com.svg"
                 alt="css"
               />
               CSS
@@ -56,7 +56,7 @@ function Techstack() {
             <li>
               <img
                 className="stack-logo"
-                src="src/assets/javascript-svgrepo-com.svg"
+                src="./assets/javascript-svgrepo-com.svg"
                 alt="javascript"
               />
               Javascript
@@ -64,7 +64,7 @@ function Techstack() {
             <li>
               <img
                 className="stack-logo"
-                src="src/assets/jquery-svgrepo-com.svg"
+                src="./assets/jquery-svgrepo-com.svg"
                 alt="jquery"
               />
               jQuery
@@ -72,7 +72,7 @@ function Techstack() {
             <li>
               <img
                 className="stack-logo"
-                src="src/assets/ejs-svgrepo-com.svg"
+                src="./assets/ejs-svgrepo-com.svg"
                 alt="ejs"
               />
               EJS Templating
@@ -90,7 +90,7 @@ function Techstack() {
             <li>
               <img
                 className="stack-logo"
-                src="src/assets/nodejs-icon-svgrepo-com.svg"
+                src="./assets/nodejs-icon-svgrepo-com.svg"
                 alt="nodejs"
               />
               NodeJS
@@ -98,7 +98,7 @@ function Techstack() {
             <li>
               <img
                 className="stack-logo"
-                src="src/assets/express-svgrepo-com.svg"
+                src="./assets/express-svgrepo-com.svg"
                 alt="express"
               />
               Express
@@ -106,7 +106,7 @@ function Techstack() {
             <li>
               <img
                 className="stack-logo"
-                src="src/assets/rest-api-svgrepo-com.svg"
+                src="./assets/rest-api-svgrepo-com.svg"
                 alt="restapi"
               />
               REST API
@@ -114,7 +114,7 @@ function Techstack() {
             <li>
               <img
                 className="stack-logo"
-                src="src/assets/netiq-advanced-authentication-svgrepo-com.svg"
+                src="./assets/netiq-advanced-authentication-svgrepo-com.svg"
                 alt="authentication"
               />
               Authentication and Security handling
@@ -122,7 +122,7 @@ function Techstack() {
             <li>
               <img
                 className="stack-logo"
-                src="src/assets/oauth-svgrepo-com.svg"
+                src="./assets/oauth-svgrepo-com.svg"
                 alt="oauth"
               />
               Oauth
@@ -130,7 +130,7 @@ function Techstack() {
             <li>
               <img
                 className="stack-logo"
-                src="src/assets/postgresql-svgrepo-com.svg"
+                src="./assets/postgresql-svgrepo-com.svg"
                 alt="postgresql"
               />
               PostgreSQL
@@ -148,7 +148,7 @@ function Techstack() {
             <li>
               <img
                 className="stack-logo"
-                src="src/assets/vs-code-svgrepo-com.svg"
+                src="./assets/vs-code-svgrepo-com.svg"
                 alt="vscode"
               />
               VS Code
@@ -156,7 +156,7 @@ function Techstack() {
             <li>
               <img
                 className="stack-logo"
-                src="src/assets/git-svgrepo-com.svg"
+                src="./assets/git-svgrepo-com.svg"
                 alt="git"
               />
               Git
@@ -164,7 +164,7 @@ function Techstack() {
             <li>
               <img
                 className="stack-logo"
-                src="src/assets/github-color-svgrepo-com.svg"
+                src="./assets/github-color-svgrepo-com.svg"
                 alt="github"
               />
               GitHub
@@ -172,7 +172,7 @@ function Techstack() {
             <li>
               <img
                 className="stack-logo"
-                src="src/assets/agile-development-svgrepo-com.svg"
+                src="./assets/agile-development-svgrepo-com.svg"
                 alt="agile"
               />
               Agile Methodologies
@@ -180,7 +180,7 @@ function Techstack() {
             <li>
               <img
                 className="stack-logo"
-                src="src/assets/brand-scrum-svgrepo-com.svg"
+                src="./assets/brand-scrum-svgrepo-com.svg"
                 alt="scrum"
               />
               Scrum Framework
@@ -188,7 +188,7 @@ function Techstack() {
             <li>
               <img
                 className="stack-logo"
-                src="src/assets/jira-svgrepo-com.svg"
+                src="./assets/jira-svgrepo-com.svg"
                 alt="jora"
               />
               JIRA
@@ -196,7 +196,7 @@ function Techstack() {
             <li>
               <img
                 className="stack-logo"
-                src="src/assets/trello-color-svgrepo-com.svg"
+                src="./assets/trello-color-svgrepo-com.svg"
                 alt="trello"
               />
               Trello
@@ -204,7 +204,7 @@ function Techstack() {
             <li>
               <img
                 className="stack-logo"
-                src="src/assets/asana-svgrepo-com.svg"
+                src="./assets/asana-svgrepo-com.svg"
                 alt="asana"
               />
               Asana
