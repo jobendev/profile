@@ -7,7 +7,7 @@ function Header(props) {
     <>
       <header>
         <div className="logo">
-          <img src="./assets/android-chrome-192x192.png" alt="Logo" />
+          <img src="./src/assets/android-chrome-192x192.png" alt="Logo" />
         </div>
         {props.aboutClicked ? <Headericons /> : null}
 
